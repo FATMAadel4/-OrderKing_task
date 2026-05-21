@@ -8,21 +8,21 @@ The desktop app has **no direct database connection** – every data operation g
 ## Screenshots
 
 ### Main Window – Customer List
-![Main Table](screenshots/01_main_table.png)
+![Main Table](screenshots/01_main_table.jpeg)
 > The main window loads all customers automatically on startup via `GET /customers`.  
 > The table shows ID, Name, Email, Phone, and Created At columns.
 
 ---
 
 ### Add New Customer
-![Add Dialog](screenshots/02_add_dialog.png)
+![Add Dialog](screenshots/02_add_dialog.jpeg)
 > Click **"+ Add Customer"** to open the form dialog.  
 > Fields: Full Name (required), Email (required), Phone (optional).
 
 ---
 
 ### Client-Side Validation
-![Validation](screenshots/03_validation.png)
+![Validation](screenshots/03_validation.jpeg)
 > The form validates input before sending to the API:
 > - Name is required (max 100 characters)
 > - Email is required and must be a valid format
@@ -31,7 +31,7 @@ The desktop app has **no direct database connection** – every data operation g
 ---
 
 ### Edit Customer
-![Edit Dialog](screenshots/04_edit_dialog.png)
+![Edit Dialog](screenshots/04_edit_dialog.jpeg)
 > Select a row and click **"Edit"** (or double-click the row) to open the edit form.  
 > All existing data is pre-filled automatically.  
 > Status bar shows **"✔ Customer updated."** on success.
@@ -39,21 +39,21 @@ The desktop app has **no direct database connection** – every data operation g
 ---
 
 ### Customer Added Successfully
-![Customer Added](screenshots/05_customer_added.png)
+![Customer Added](screenshots/05_customer_added.jpeg)
 > After a successful `POST /customers`, the new customer appears in the table immediately  
 > and the status bar shows **"✔ Customer 'name' added."**
 
 ---
 
 ### Customer Updated Successfully
-![Customer Updated](screenshots/06_customer_updated.png)
+![Customer Updated](screenshots/06_customer_updated.jpeg)
 > After a successful `PUT /customers/{id}`, the row is updated in place  
 > and the status bar shows **"✔ Customer updated."**
 
 ---
 
 ### Delete Confirmation
-![Delete Confirm](screenshots/07_delete_confirm.png)
+![Delete Confirm](screenshots/07_delete_confirm.jpeg)
 > Click **"Delete"** to show a confirmation dialog before sending `DELETE /customers/{id}`.  
 > The action cannot be undone.
 
