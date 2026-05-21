@@ -9,44 +9,44 @@ The desktop client (JavaFX) communicates with this API — it has no direct data
 ## Screenshots (Desktop Client)
 
 ### Main Window – Customer List
-![Main Table](screenshots/01_main_table.png)
+![Main Table](screenshots/01_main_table.jpeg)
 > All customers loaded via `GET /customers` — shown in the JavaFX desktop client.
 
 ---
 
 ### Add New Customer
-![Add Dialog](screenshots/02_add_dialog.png)
+![Add Dialog](screenshots/02_add_dialog.jpeg)
 > The desktop form sends a `POST /customers` request to this backend.
 
 ---
 
 ### Client-Side Validation
-![Validation](screenshots/03_validation.png)
+![Validation](screenshots/03_validation.jpeg)
 > Client validates before sending. Backend also validates with `@Valid` + `@NotBlank`, `@Email`.
 
 ---
 
 ### Edit Customer
-![Edit Dialog](screenshots/04_edit_dialog.png)
+![Edit Dialog](screenshots/04_edit_dialog.jpeg)
 > The desktop form sends a `PUT /customers/{id}` request.  
 > Backend checks for email conflict (409) before saving.
 
 ---
 
 ### Customer Added Successfully
-![Customer Added](screenshots/05_customer_added.png)
+![Customer Added](screenshots/05_customer_added.jpeg)
 > `POST /customers` returns **201 Created** with the new customer object.
 
 ---
 
 ### Customer Updated Successfully
-![Customer Updated](screenshots/06_customer_updated.png)
+![Customer Updated](screenshots/06_customer_updated.jpeg)
 > `PUT /customers/{id}` returns **200 OK** with the updated customer object.
 
 ---
 
 ### Delete Confirmation
-![Delete Confirm](screenshots/07_delete_confirm.png)
+![Delete Confirm](screenshots/07_delete_confirm.jpeg)
 > `DELETE /customers/{id}` returns **204 No Content** after successful deletion.
 
 ---
