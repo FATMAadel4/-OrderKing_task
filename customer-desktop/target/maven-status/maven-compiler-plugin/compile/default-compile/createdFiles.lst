@@ -1,0 +1,10 @@
+com\customermanager\util\PagedResponse.class
+com\customermanager\ui\CustomerFormDialog.class
+com\customermanager\util\ApiResponse.class
+com\customermanager\service\CustomerService$1.class
+com\customermanager\model\Customer.class
+com\customermanager\util\ApiConfig.class
+com\customermanager\ui\MainController$1.class
+com\customermanager\ui\MainController.class
+com\customermanager\MainApp.class
+com\customermanager\service\CustomerService.class
